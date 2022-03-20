@@ -20,6 +20,7 @@ class SearchHeroBar extends React.Component {
 
     updateInput = (e) => {
         this.setState({"name": e.target.value}, () => console.log(this.state.name));
+        this.props.setHero(e);
     }
 
     render() {

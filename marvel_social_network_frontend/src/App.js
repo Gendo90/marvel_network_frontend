@@ -1,15 +1,13 @@
 import React from "react";
 import './App.css';
-import './SearchHeroBar';
-import SearchHeroBar from "./SearchHeroBar";
+import SearchHeroForm from "./SearchHeroForm";
 
 class App extends React.Component {
 
   render() {
     return (
       <div className="App">
-        <SearchHeroBar />
-        <SearchHeroBar />
+        <SearchHeroForm />
       </div>
     );
   }  
