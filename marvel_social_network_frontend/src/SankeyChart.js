@@ -1,7 +1,6 @@
 import React from "react";
 // import * as d3 from "d3";
 // import * from './sankey';
-import axios from "axios";
 import './App.css';
 
 const SankeyChart = ({data}) => {
