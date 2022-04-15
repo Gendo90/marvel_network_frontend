@@ -21,7 +21,7 @@ class SearchHeroForm extends React.Component {
     getRelationship = async (e) => {
         console.log("Perform axios call with fromHero and toHero - then get sankey data from backend!");
         console.log(this.state);
-        const res = await axios.get('http://localhost:5000/api/sankey', 
+        const res = await axios.get('https://www.captainmarvelbackend.live:5000/api/sankey', 
             { 
                 params: { hero1: this.state.fromHero, hero2: this.state.toHero },
                 // headers: { 'Access-Control-Allow-Origin': '*'}
